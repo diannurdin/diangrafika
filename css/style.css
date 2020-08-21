@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.a {
+    color: inherit;
+    text-decoration: none;
+    text-decoration-color: none;
+} 
+.navbar {
+    background-color: darkslateblue;
+}
+.dropdown:hover> .dropdown-menu{
+    display: block;
+}
+.nav-link {
+    color: #fff;
+    margin-right: 25px;
+}   
+.dropdown-item {
+    color: #fff;
+}
+.nav-link:hover {
+    color: darkorange;
+} 
+.dropdown-item:hover {
+    color: darkorange;
+    background-color: transparent;
+    transform: translateX(15px);
+}
+.navbar-nav > li > .dropdown-menu { 
+    background-color: darkslateblue; 
+}
+.col-md {
+    padding-top: 25px;
+}
+.btn {
+    width: 200px;
+    margin-left: 8px;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.kontak {
+    background-color: #eaeaea;
+    text-align: center;
+    color: #666;
+    position: relative;
+    padding: 20px 0;
+}
+.kontak h3 {
+    text-align: center;
+    padding-top: 20px;
+    color: #666;
+}
+.boxmedsos {
+    padding: 5px;
+}
+.box-2 {
+    display: inline-block;
+    margin: 30px;
+}
+.box-2::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.icon-contact {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    color: #666;
+    text-align: center;
+    line-height: 47px;
+    font-size: 30px;
+}
+.icon-contact:hover {
+    color: darkorange;
+}
+.call {
+    color: #666;
+    margin-left: -20px;
+}
+.call:hover {
+    color: darkorange;
+}
+.email {
+    color: #666;
+}
+.email:hover {
+    color: darkorange;
+}
+.alamat {
+    color: #666;
+}
+.col-wa {
+    font-size: 50px;
+}
+.col-alamat {
+    font-size: 50px;
+}
+.col-email {
+    font-size: 50px;
+}
+.alamat:hover {
+    color: darkorange;
+}
+.box-2 .col-medsos .medsos {
+    top: 50px;
+}
+.box-2 a {
+    color: #666;
+}
+.footer {
+    background-color: darkslateblue;
+    color: #eaeaea;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 1px;
+}
+.footer p {
+    padding-bottom: 10px;
+}
+.container p span {
+    color: darkorange;
+}
+
+
+@media (max-width:768px) {
+    .row {
+        width: 100%;
+        float: left;
+        margin-left: -5px;
+    }
+    .row h2 {
+        padding-bottom: -50px;
+        font-size: 24px;
+    }
+    .col-md {
+        width: 50%;
+    }
+    .btn {
+        width: 120px;
+        margin-left: 1px;
+        font-size: 12px;
+        }
+    .email {
+        margin-left: -20px;
+    }
+    .col-alamat {
+        margin-bottom: -10px;
+    }
+    .alamat {
+        padding-top: 20px;
+    }
+}
